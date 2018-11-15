@@ -1,0 +1,319 @@
+body{
+
+    background-color: whitesmoke;
+    font-size: 16px;
+
+}
+
+
+/*start admin login*/
+.login{
+
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4{
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    color: #888;
+
+}
+
+.login input{
+
+    margin-bottom: 10px;
+}
+.login .btn{
+
+     background-color: #1b6d85;
+    border: none;
+ }
+
+
+/*end login admin */
+
+
+/*start navnar */
+
+
+
+/*end navbar */
+
+
+/*start Edit Mambers */
+
+h1{
+
+    font-size: 45px;
+    font-weight: bold;
+    color: #666;
+
+}
+
+/* end Edit Mambers */
+
+
+/* start bordered */
+
+
+
+
+.main-table tr:first-child td{
+
+    background-color: #0f0f0f;
+    color: white;
+
+
+}
+
+/*end borderd */
+
+
+
+/* start dashborde page*/
+
+.home-stat .stat {
+
+
+    background-color: #EEE;
+    border-radius:5px;
+    padding: 20px;
+    font-size: 30px;
+    color:white;
+
+}
+
+.home-stat .stat span{
+
+  display: block;
+
+}
+.home-stat .stat a{
+
+    text-decoration: none;
+    color:white;
+
+}
+
+/* end dashborde page*/
+
+
+.MyMaggin{
+
+    margin-top: 30px;
+}
+
+
+/* start dashborde like mambers && items etc */
+
+.home-stat .Mammbers{
+
+    background-color: #3498db;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ranga', cursive;
+    position: relative;
+
+}
+
+.home-stat i{
+
+    font-size: 45px;
+    float: left;
+
+}
+
+.home-stat .Pading{
+
+    background-color: #e67e22;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ranga', cursive;
+    position: relative;
+
+
+
+}
+.home-stat .Items{
+
+    background-color: #d35400;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ranga', cursive;
+    position: relative;
+
+
+}
+.home-stat .Comments{
+
+    background-color: #34495e;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ranga', cursive;
+
+}
+
+.home-stat .bignum{
+
+    font-size: 40px;
+}
+
+.mylist-use{
+
+    margin-bottom: 0;
+}
+
+.mylist-use li{
+
+    padding: 6px;
+    overflow: hidden;
+}
+
+.mylist-use li:nth-child(odd){
+
+    background-color: #EEE;
+}
+.mylist-use .btn {
+
+    margin-bottom: 5px;
+    margin-right:5px;
+}
+
+
+.newlooke{
+
+    color: #0f0f0f;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ranga', cursive;
+    font-weight: bold;
+
+}
+
+
+.service .serv{
+
+
+    padding: 4px 22px;
+    background-color: #3498db;
+    margin-right:5px;
+    color: white;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+
+
+}
+
+.service .visbil{
+
+    padding: 4px 22px;
+    background-color: #e74c3c;
+    margin-right:5px;
+    color: white;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+}
+
+.service .name-server:last-of-type ~ hr{
+
+    display:none;
+}
+
+.service .name-server h3{
+
+    margin-top:5px;
+}
+
+.service .name-server{
+
+    position:relative;
+
+
+}
+
+.service .comm{
+
+    padding: 4px 22px;
+    background-color: #34495e;
+    margin-right:5px;
+
+    color: white;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+}
+
+.service .ads{
+
+
+    padding: 4px 22px;
+    background-color: #c0392b;
+    margin-right:5px;
+
+    color: white;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+
+}
+
+.service .button-hidden a {
+
+    margin-left: 10px;
+
+}
+
+.service:hover .button-hidden{
+
+    right: 10px;
+}
+
+.service .button-hidden{
+
+    -webkit-transition:all .5s ease-in-out ;
+    -moz-transition:all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.service .active{
+
+    color: #34495e;
+    font-weight: bold;
+}
+.service .mycolor{
+
+    font-family: 'Ranga', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kavivanar', cursive;
+    font-weight:bold;
+    color: #636769;
+}
+
+.comment-box{
+    padding-left: 25px;
+    padding-right: 250px;
+    position: relative;
+
+
+}
+.comment-box .comm-com{
+
+    padding: 4px 20px;
+    background-color: #d1d8e0;
+    margin-right:5px;
+    color: black;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+    width:500px;
+    height: 100px;
+}
+.comment-box .comm-us{
+
+    font-weight: bold;
+    color: #4b6584;
+}
+
+/* end dashborde like mambers && items etc */
